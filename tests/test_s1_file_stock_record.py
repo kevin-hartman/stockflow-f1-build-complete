@@ -184,3 +184,40 @@ def test_refused_duplicate_leaves_single_original_row(client, db_session):
         {"sku": row["sku"], "location": row["location"]},
     ).all()
     assert [r[0] for r in rows] == [12]
+
+
+def _post_without_tracking(client, **tracking):
+    payload = {"sku": _uniq(), "location": "A-01", "quantity": 12, **tracking}
+    return payload, client.post("/api/stock-records", json=payload)
+
+
+@pytest.mark.testid("T8")
+def test_post_blank_tracking_code_returns_201_with_null(client):
+    _, r = _post_without_tracking(client, tracking_code="")
+    assert r.status_code == 201
+    assert r.json()["tracking_code"] is None
+
+
+@pytest.mark.testid("T9")
+def test_post_omitted_tracking_code_returns_201_with_null(client):
+    _, r = _post_without_tracking(client)
+    assert r.status_code == 201
+    assert r.json()["tracking_code"] is None
+
+
+@pytest.mark.testid("T10")
+def test_post_whitespace_tracking_code_returns_201_with_null(client):
+    _, r = _post_without_tracking(client, tracking_code="   ")
+    assert r.status_code == 201
+    assert r.json()["tracking_code"] is None
+
+
+@pytest.mark.testid("T11")
+def test_blank_tracking_code_stored_as_sql_null(client, db_session):
+    payload, r = _post_without_tracking(client, tracking_code="  ")
+    assert r.status_code == 201
+    is_null = db_session.execute(
+        sa.text("SELECT tracking_code IS NULL FROM stock_records WHERE sku = :sku AND location = :location"),
+        {"sku": payload["sku"], "location": payload["location"]},
+    ).scalar_one()
+    assert is_null is True
