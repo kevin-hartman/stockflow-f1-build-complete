@@ -1,0 +1,30 @@
+{
+  "ordinal": 50,
+  "step": 0,
+  "label": "navigator",
+  "kind": "invoke-role",
+  "role": "navigator",
+  "story": "S2-view-stock-by-location",
+  "action": {
+    "kind": "invoke-role",
+    "role": "navigator",
+    "story": "S2-view-stock-by-location"
+  },
+  "produced": [
+    ".consort/agent-live.log",
+    "client/tests/components/StockTable.test.tsx",
+    "client/tests/e2e/stock-by-location.spec.ts",
+    "client/tests/e2e/stock-empty-state.spec.ts",
+    "client/tests/e2e/stock-new-record-appears.spec.ts",
+    "client/tests/e2e/stock-not-tracked.spec.ts",
+    "tests/test_s2_view_stock_by_location.py"
+  ],
+  "deleted": [],
+  "snapshotted": false,
+  "transcript": {
+    "role": "navigator",
+    "model": "sonnet",
+    "toolCount": 6,
+    "finalTextChars": 1285
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ordinal": 54,
+  "step": 0,
+  "label": "navigator-review",
+  "kind": "invoke-role",
+  "role": "navigator",
+  "mode": "review",
+  "story": "S2-view-stock-by-location",
+  "action": {
+    "kind": "invoke-role",
+    "role": "navigator",
+    "story": "S2-view-stock-by-location",
+    "buildMode": "review"
+  },
+  "produced": [
+    ".consort/agent-live.log",
+    ".consort/cycles/F1-stock-visibility/S2-view-stock-by-location/AC1-table-lists-records-by-location/cycle-001.json",
+    ".consort/cycles/F1-stock-visibility/S2-view-stock-by-location/review-verdict.json",
+    ".consort/deploy/serve-registry.json",
+    ".consort/experiments/F1-stock-visibility/S2-view-stock-by-location/exp1/outcomes.json",
+    ".consort/features/F1-stock-visibility/stories/S2-view-stock-by-location/acs/AC1-table-lists-records-by-location.json",
+    ".consort/features/F1-stock-visibility/stories/S2-view-stock-by-location/acs/AC2-empty-state-when-no-records.json",
+    ".consort/features/F1-stock-visibility/stories/S2-view-stock-by-location/acs/AC3-untracked-code-shows-not-tracked.json",
+    ".consort/features/F1-stock-visibility/stories/S2-view-stock-by-location/acs/AC4-new-record-appears-without-reload.json",
+    ".consort/features/F1-stock-visibility/stories/S2-view-stock-by-location/test-list-per-story.json",
+    ".consort/features/F1-stock-visibility/test-list.json",
+    ".consort/features/F1-stock-visibility/test-list.md",
+    ".consort/table-snapshots.jsonl",
+    ".consort/test-interactions.jsonl",
+    ".consort/test-run.jsonl",
+    "client/playwright-report/index.html"
+  ],
+  "deleted": [
+    ".consort/cycles/F1-stock-visibility/S2-view-stock-by-location/AC1-table-lists-records-by-location/green-failure.json"
+  ],
+  "snapshotted": false,
+  "transcript": {
+    "role": "navigator",
+    "model": "sonnet",
+    "toolCount": 2,
+    "finalTextChars": 313
+  }
+}

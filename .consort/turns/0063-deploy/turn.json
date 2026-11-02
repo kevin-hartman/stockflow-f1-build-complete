@@ -1,0 +1,19 @@
+{
+  "ordinal": 63,
+  "step": 0,
+  "label": "deploy",
+  "kind": "deploy",
+  "action": {
+    "kind": "deploy"
+  },
+  "produced": [
+    ".consort/deploy/local.pid",
+    ".consort/features/F1-stock-visibility/deploy-evidence.json",
+    ".consort/table-snapshots.jsonl",
+    ".consort/test-interactions.jsonl",
+    ".consort/test-run.jsonl",
+    "client/playwright-report/index.html"
+  ],
+  "deleted": [],
+  "snapshotted": false
+}

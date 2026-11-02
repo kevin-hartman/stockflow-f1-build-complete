@@ -90,7 +90,7 @@
       }
     },
     "S3-view-sku-detail": {
-      "status": "awaiting-acceptance",
+      "status": "done",
       "gate": {
         "status": "approved",
         "history": [
@@ -108,16 +108,25 @@
         "branch": "experiment-s3-view-sku-detail-exp1",
         "parent": "feature-f1-stock-visibility",
         "n": 1,
-        "status": "active",
+        "status": "merged",
         "cut_at": "2026-11-02T20:12:26.605Z",
-        "design_fingerprint": "b63ffd829b68f071"
+        "design_fingerprint": "b63ffd829b68f071",
+        "closed_at": "2026-11-02T20:47:46.200Z"
       },
       "acceptance": {
-        "decision": null,
-        "history": []
+        "decision": "accepted",
+        "history": [
+          {
+            "decision": "accepted",
+            "at": "2026-11-02T20:47:46.200Z",
+            "approver": "kevin.hartman"
+          }
+        ],
+        "approver": "kevin.hartman",
+        "at": "2026-11-02T20:47:46.200Z"
       }
     }
   },
   "build_queue": [],
-  "build_active": "S3-view-sku-detail"
+  "build_active": null
 }

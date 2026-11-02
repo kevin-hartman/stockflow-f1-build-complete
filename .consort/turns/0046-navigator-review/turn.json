@@ -1,0 +1,38 @@
+{
+  "ordinal": 46,
+  "step": 0,
+  "label": "navigator-review",
+  "kind": "invoke-role",
+  "role": "navigator",
+  "mode": "review",
+  "story": "S1-file-stock-record",
+  "action": {
+    "kind": "invoke-role",
+    "role": "navigator",
+    "story": "S1-file-stock-record",
+    "buildMode": "review"
+  },
+  "produced": [
+    ".consort/agent-live.log",
+    ".consort/cycles/F1-stock-visibility/S1-file-stock-record/AC2-file-without-tracking-code/cycle-001.json",
+    ".consort/cycles/F1-stock-visibility/S1-file-stock-record/review-verdict.json",
+    ".consort/deploy/serve-registry.json",
+    ".consort/experiments/F1-stock-visibility/S1-file-stock-record/exp1/outcomes.json",
+    ".consort/features/F1-stock-visibility/stories/S1-file-stock-record/acs/AC2-file-without-tracking-code.json",
+    ".consort/features/F1-stock-visibility/stories/S1-file-stock-record/test-list-per-story.json",
+    ".consort/features/F1-stock-visibility/test-list.json",
+    ".consort/features/F1-stock-visibility/test-list.md",
+    ".consort/table-snapshots.jsonl",
+    ".consort/test-interactions.jsonl",
+    ".consort/test-run.jsonl",
+    "client/playwright-report/index.html"
+  ],
+  "deleted": [],
+  "snapshotted": false,
+  "transcript": {
+    "role": "navigator",
+    "model": "sonnet",
+    "toolCount": 2,
+    "finalTextChars": 402
+  }
+}

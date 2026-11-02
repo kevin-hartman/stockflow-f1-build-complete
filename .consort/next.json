@@ -1,0 +1,51 @@
+{
+  "scope": "feature",
+  "feature": "F1-stock-visibility",
+  "state": {
+    "coarse_phase": "deploy",
+    "derived_phase": "complete",
+    "stories": {
+      "S1-file-stock-record": "done",
+      "S2-view-stock-by-location": "done",
+      "S3-view-sku-detail": "done"
+    },
+    "open_gates": [
+      "deploy"
+    ],
+    "blockers": []
+  },
+  "primary_action": {
+    "kind": "approve-deploy-gate",
+    "describe": "GATE deploy awaiting decision – feature F1-stock-visibility"
+  },
+  "options": [
+    {
+      "id": "deploy.approve",
+      "title": "Approve the deploy gate",
+      "hil_prompt": "The feature deployed + verified locally. Approve the deploy gate to enter promotion?",
+      "kind": "gate",
+      "enact": {
+        "bin": "consort-approve-gate",
+        "args": [
+          "--feature",
+          "F1-stock-visibility",
+          "--gate",
+          "deploy",
+          "--approver",
+          "<you>"
+        ]
+      }
+    },
+    {
+      "id": "hold",
+      "title": "Stop here (checkpoint)",
+      "hil_prompt": "Checkpoint and resume later?",
+      "kind": "noop",
+      "enact": null
+    }
+  ],
+  "awaiting_human": true,
+  "summary": "feature F1-stock-visibility is at the deploy gate, awaiting a human decision. See options for the choices and how to enact each.",
+  "authoritative_playbook_version": "0.4.37",
+  "generated_at": "2026-11-02T20:57:40.024Z"
+}

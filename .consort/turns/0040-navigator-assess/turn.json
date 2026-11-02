@@ -1,0 +1,36 @@
+{
+  "ordinal": 40,
+  "step": 0,
+  "label": "navigator-assess",
+  "kind": "invoke-role",
+  "role": "navigator",
+  "mode": "assess",
+  "story": "S1-file-stock-record",
+  "ac": "AC1-file-valid-record",
+  "action": {
+    "kind": "invoke-role",
+    "role": "navigator",
+    "story": "S1-file-stock-record",
+    "buildMode": "assess",
+    "ac": "AC1-file-valid-record"
+  },
+  "produced": [
+    ".consort/agent-live.log",
+    ".consort/cycles/F1-stock-visibility/S1-file-stock-record/AC1-file-valid-record/green-failure.json",
+    ".consort/cycles/F1-stock-visibility/S1-file-stock-record/AC1-file-valid-record/regression-assessment.json",
+    ".consort/deploy/serve-registry.json",
+    ".consort/experiments/F1-stock-visibility/S1-file-stock-record/exp1/outcomes.json",
+    ".consort/table-snapshots.jsonl",
+    ".consort/test-interactions.jsonl",
+    ".consort/test-run.jsonl",
+    "client/playwright-report/index.html"
+  ],
+  "deleted": [],
+  "snapshotted": false,
+  "transcript": {
+    "role": "navigator",
+    "model": "opus",
+    "toolCount": 1,
+    "finalTextChars": 485
+  }
+}

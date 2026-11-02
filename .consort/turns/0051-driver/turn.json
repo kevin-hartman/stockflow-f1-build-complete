@@ -1,0 +1,35 @@
+{
+  "ordinal": 51,
+  "step": 0,
+  "label": "driver",
+  "kind": "invoke-role",
+  "role": "driver",
+  "story": "S2-view-stock-by-location",
+  "action": {
+    "kind": "invoke-role",
+    "role": "driver",
+    "story": "S2-view-stock-by-location"
+  },
+  "produced": [
+    ".consort/agent-live.log",
+    ".consort/cycles/F1-stock-visibility/S2-view-stock-by-location/AC1-table-lists-records-by-location/cycle-001.json",
+    ".consort/table-snapshots.jsonl",
+    ".consort/test-interactions.jsonl",
+    ".consort/test-run.jsonl",
+    "alembic/versions/20261102200143_add_stock_records_location_sku_index.py",
+    "app/models/stock_record.py",
+    "client/src/App.tsx",
+    "client/src/api/stockRecords.ts",
+    "client/src/components/StockTable.tsx",
+    "client/src/hooks/useStockRecords.ts",
+    "client/src/pages/HomePage.tsx"
+  ],
+  "deleted": [],
+  "snapshotted": false,
+  "transcript": {
+    "role": "driver",
+    "model": "opus",
+    "toolCount": 15,
+    "finalTextChars": 1246
+  }
+}

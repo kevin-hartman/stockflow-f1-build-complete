@@ -1,0 +1,40 @@
+{
+  "feature_id": "F1-stock-visibility",
+  "schema_version": 1,
+  "gates": {
+    "spec": {
+      "status": "open",
+      "history": []
+    },
+    "plan": {
+      "status": "open",
+      "history": []
+    },
+    "test_list": {
+      "status": "open",
+      "history": []
+    },
+    "promote": {
+      "status": "open",
+      "history": []
+    },
+    "deploy": {
+      "status": "approved",
+      "approver": "kevin.hartman",
+      "approved_at": "2026-11-02T21:00:23.602Z",
+      "artifact_hashes": {
+        "deploy-evidence.json": "f75ddd1cbaca04cc61eb82eda751e2f7f23f3f0e9a5f4108f612870aaf90c4c0"
+      },
+      "history": [
+        {
+          "action": "approved",
+          "at": "2026-11-02T21:00:23.602Z",
+          "approver": "kevin.hartman",
+          "artifact_hashes": {
+            "deploy-evidence.json": "f75ddd1cbaca04cc61eb82eda751e2f7f23f3f0e9a5f4108f612870aaf90c4c0"
+          }
+        }
+      ]
+    }
+  }
+}

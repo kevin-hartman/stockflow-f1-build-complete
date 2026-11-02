@@ -1,0 +1,33 @@
+{
+  "ordinal": 53,
+  "step": 0,
+  "label": "driver-repair",
+  "kind": "invoke-role",
+  "role": "driver",
+  "mode": "repair",
+  "story": "S2-view-stock-by-location",
+  "ac": "AC1-table-lists-records-by-location",
+  "action": {
+    "kind": "invoke-role",
+    "role": "driver",
+    "story": "S2-view-stock-by-location",
+    "buildMode": "repair",
+    "ac": "AC1-table-lists-records-by-location"
+  },
+  "produced": [
+    ".consort/agent-live.log",
+    ".consort/cycles/F1-stock-visibility/S2-view-stock-by-location/AC1-table-lists-records-by-location/green-failure.json",
+    ".consort/table-snapshots.jsonl",
+    ".consort/test-interactions.jsonl",
+    ".consort/test-run.jsonl",
+    "client/tests/components/StockTable.test.tsx"
+  ],
+  "deleted": [],
+  "snapshotted": false,
+  "transcript": {
+    "role": "driver",
+    "model": "sonnet",
+    "toolCount": 4,
+    "finalTextChars": 575
+  }
+}
