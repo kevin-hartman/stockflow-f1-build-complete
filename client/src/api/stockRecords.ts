@@ -55,3 +55,16 @@ export async function listStockRecords(): Promise<StockRecord[]> {
   if (!res.ok) throw new Error(`Could not load stock (status ${res.status})`);
   return (await res.json()) as StockRecord[];
 }
+
+export interface StockRecordDetail extends StockRecord {
+  par_level: number | null;
+}
+
+// EP3: one record by its (sku, location) key; null when it does not exist.
+export async function getStockRecord(sku: string, location: string): Promise<StockRecordDetail | null> {
+  const url = `/api/stock-records/${encodeURIComponent(sku)}?location=${encodeURIComponent(location)}`;
+  const res = await fetch(url, { headers: { Accept: "application/json" } });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`Could not load the record (status ${res.status})`);
+  return (await res.json()) as StockRecordDetail;
+}

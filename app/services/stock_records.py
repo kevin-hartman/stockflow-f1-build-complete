@@ -10,16 +10,24 @@ from app.repositories.session import get_session  # noqa: F401  (the session doo
 from app.repositories.stock_records import DuplicateStockRecordError
 
 DUPLICATE_MESSAGE = "A record for that SKU at that location already exists"
+NOT_FOUND_MESSAGE = "Stock record not found"
 QUANTITY_INVALID = "Quantity must be a whole number of zero or more"
 
 __all__ = [
     "DUPLICATE_MESSAGE",
     "DuplicateStockRecordError",
+    "NOT_FOUND_MESSAGE",
+    "StockRecordNotFoundError",
+    "get_stock_record",
     "StockRecordValidationError",
     "create_stock_record",
     "get_session",
     "list_stock_records",
 ]
+
+
+class StockRecordNotFoundError(Exception):
+    """No record exists for the requested (sku, location) key."""
 
 
 class StockRecordValidationError(Exception):
@@ -78,3 +86,10 @@ def create_stock_record(
 
 def list_stock_records(db: Session) -> list[StockRecord]:
     return repo.list_all(db)
+
+
+def get_stock_record(db: Session, *, sku: str, location: str) -> StockRecord:
+    record = repo.find_by_key(db, sku=sku, location=location)
+    if record is None:
+        raise StockRecordNotFoundError()
+    return record

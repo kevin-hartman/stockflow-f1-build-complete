@@ -1,8 +1,8 @@
-"""EP1: /api/stock-records — file and list stock records (JSON only)."""
+"""EP1/EP3: /api/stock-records — file, list, and fetch one stock record (JSON only)."""
 
 from typing import Any
 
-from fastapi import APIRouter, Body, Depends
+from fastapi import APIRouter, Body, Depends, Query
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
 
@@ -30,3 +30,14 @@ def file_stock_record(
 @router.get("")
 def list_stock_records(db: Session = Depends(service.get_session)) -> list[dict]:
     return [r.to_dict() for r in service.list_stock_records(db)]
+
+
+@router.get("/{sku}")
+def get_stock_record(
+    sku: str, location: str = Query(...), db: Session = Depends(service.get_session)
+) -> JSONResponse:
+    try:
+        record = service.get_stock_record(db, sku=sku, location=location)
+    except service.StockRecordNotFoundError:
+        return JSONResponse(status_code=404, content={"error": service.NOT_FOUND_MESSAGE})
+    return JSONResponse(status_code=200, content=record.to_detail_dict())

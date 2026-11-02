@@ -27,3 +27,7 @@ def add(db: Session, *, sku: str, location: str, quantity: int, tracking_code: s
 
 def list_all(db: Session) -> list[StockRecord]:
     return db.query(StockRecord).order_by(StockRecord.location, StockRecord.sku).all()
+
+
+def find_by_key(db: Session, *, sku: str, location: str) -> StockRecord | None:
+    return db.query(StockRecord).filter(StockRecord.sku == sku, StockRecord.location == location).one_or_none()

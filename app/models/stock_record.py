@@ -27,3 +27,7 @@ class StockRecord(Base):
             "quantity": self.quantity,
             "tracking_code": self.tracking_code,
         }
+
+    def to_detail_dict(self) -> dict:
+        # par_level is not tracked yet: always null, independent of tracking_code.
+        return {**self.to_dict(), "par_level": None}

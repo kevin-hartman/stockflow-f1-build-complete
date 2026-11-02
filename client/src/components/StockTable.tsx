@@ -1,7 +1,8 @@
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import type { StockRecord } from "../api/stockRecords";
 import { useStockRecords } from "../hooks/useStockRecords";
+import { NotTracked } from "./NotTracked";
 
 const COLUMNS = 4;
 
@@ -15,13 +16,6 @@ function groupByLocation(records: StockRecord[]): [string, StockRecord[]][] {
   return groups;
 }
 
-function NotTracked() {
-  return (
-    <span className="pill pill--not-tracked" data-testid="not-tracked">
-      not tracked
-    </span>
-  );
-}
 
 function EmptyState() {
   return (
@@ -36,9 +30,20 @@ function EmptyState() {
   );
 }
 
+export function detailPath(record: Pick<StockRecord, "sku" | "location">): string {
+  return `/sku/${encodeURIComponent(record.sku)}?location=${encodeURIComponent(record.location)}`;
+}
+
 function StockRow({ record }: { record: StockRecord }) {
+  const navigate = useNavigate();
+  const open = () => navigate(detailPath(record));
   return (
-    <tr data-testid="stock-row">
+    <tr
+      data-testid="stock-row"
+      tabIndex={0}
+      onClick={open}
+      onKeyDown={(e) => e.key === "Enter" && open()}
+    >
       <td data-testid="stock-cell-sku">{record.sku}</td>
       <td data-testid="stock-cell-location">{record.location}</td>
       <td className="num" data-testid="stock-cell-quantity">{record.quantity}</td>
