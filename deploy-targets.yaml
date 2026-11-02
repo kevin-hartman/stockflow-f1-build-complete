@@ -52,7 +52,7 @@ targets:
   prod:
     type: databricks-app
     workspace_profile: fevm-stockflow
-    workspace_path: /Workspace/Users/you@databricks.com/my-stockflow-f1-design-complete
-    app_name: my-stockflow-f1-design-complete
-    lakebase_project: my-stockflow-f1-design-complete
+    workspace_path: /Workspace/Users/you@databricks.com/my-stockflow-f1-build-complete
+    app_name: my-stockflow-f1-build-complete
+    lakebase_project: my-stockflow-f1-build-complete
     lakebase_branch: production
