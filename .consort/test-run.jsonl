@@ -405,3 +405,241 @@
 {"ts":"2026-11-02T09:07:33.795Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
 {"ts":"2026-11-02T09:07:33.797Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
 {"ts":"2026-11-02T09:07:34.903Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts": "2026-11-02T20:02:24.362023+00:00", "test_id": "T39", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:26.869640+00:00", "test_id": "T39", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:27.240941+00:00", "test_id": "T40", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:28.869405+00:00", "test_id": "T40", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:29.217921+00:00", "test_id": "T41", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:34.679124+00:00", "test_id": "T41", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:36.126076+00:00", "test_id": "T42", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:40.197149+00:00", "test_id": "T42", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:41.934505+00:00", "test_id": "T43", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:42.635342+00:00", "test_id": "T43", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:42.981485+00:00", "test_id": "T44", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:42.982711+00:00", "test_id": "T44", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:43.375063+00:00", "test_id": "T45", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:02:44.008590+00:00", "test_id": "T45", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:02:51.457Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:02:51.458Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:02:51.458Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:02:51.458Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:02:51.459Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:03:05.542Z","test_id":"T48","status":"running","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:07.992Z","test_id":"T48","status":"green","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:07.998Z","test_id":"T50","status":"running","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:08.142Z","test_id":"T50","status":"green","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:08.145Z","test_id":"T55","status":"running","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:09.988Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:09.995Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:03:11.715Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts": "2026-11-02T20:03:39.835198+00:00", "test_id": "T39", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:42.476772+00:00", "test_id": "T39", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:42.843644+00:00", "test_id": "T40", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:44.522410+00:00", "test_id": "T40", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:44.878173+00:00", "test_id": "T43", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:45.599095+00:00", "test_id": "T43", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:45.965596+00:00", "test_id": "T44", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:45.966989+00:00", "test_id": "T44", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:46.320892+00:00", "test_id": "T45", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:47.104492+00:00", "test_id": "T45", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:03:59.186338+00:00", "test_id": "T41", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:04:05.245827+00:00", "test_id": "T41", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:04:06.796893+00:00", "test_id": "T42", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:04:11.229040+00:00", "test_id": "T42", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:04:34.203Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.206Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.206Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.206Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.206Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.207Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.207Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.207Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.207Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.208Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.208Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.208Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.208Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:34.209Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:04:40.030Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:41.358Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:41.362Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:43.181Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:43.182Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:44.682Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:44.687Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:44.941Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:44.942Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.205Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.211Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.461Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.462Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.736Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.737Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.994Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:45.998Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:46.974Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:46.975Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:48.112Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:48.262Z","test_id":"T48","status":"running","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:50.757Z","test_id":"T48","status":"green","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:50.762Z","test_id":"T50","status":"running","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:50.936Z","test_id":"T50","status":"green","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:50.939Z","test_id":"T55","status":"running","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:52.771Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:52.776Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:04:54.516Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:06:00.193Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:06:00.195Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:06:00.195Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:06:00.195Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:06:00.196Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts": "2026-11-02T20:06:17.919807+00:00", "test_id": "T39", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:20.528392+00:00", "test_id": "T39", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:20.893908+00:00", "test_id": "T40", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:22.542974+00:00", "test_id": "T40", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:22.899680+00:00", "test_id": "T43", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:23.611362+00:00", "test_id": "T43", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:23.966690+00:00", "test_id": "T44", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:23.968825+00:00", "test_id": "T44", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:24.322506+00:00", "test_id": "T45", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:25.073342+00:00", "test_id": "T45", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:39.494459+00:00", "test_id": "T41", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:45.379637+00:00", "test_id": "T41", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:46.876990+00:00", "test_id": "T42", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:06:51.021610+00:00", "test_id": "T42", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:07:15.253Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.255Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.255Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.256Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.256Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.256Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.257Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.257Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.257Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.257Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.258Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.258Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.258Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:15.259Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:07:19.769Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:21.080Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:21.086Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:22.383Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:22.384Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:23.882Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:23.886Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.127Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.129Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.382Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.386Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.635Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.636Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.889Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:24.891Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:25.139Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:25.143Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:26.107Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:26.108Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:27.260Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:27.395Z","test_id":"T48","status":"running","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:29.851Z","test_id":"T48","status":"green","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:29.856Z","test_id":"T50","status":"running","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:30.001Z","test_id":"T50","status":"green","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:30.008Z","test_id":"T55","status":"running","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:31.804Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:31.810Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:07:33.534Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts": "2026-11-02T20:08:16.703462+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:21.561733+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:23.090817+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:23.092718+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:23.445860+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:23.624552+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:24.340740+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:24.817688+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:25.174956+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:25.409891+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:25.759841+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:25.995792+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:26.352219+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:26.588448+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:26.977126+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:26.979030+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:27.331818+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:27.336166+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:27.685177+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:28.199462+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:28.552964+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:28.555113+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:28.915547+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:28.919162+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:29.267847+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:29.735376+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:30.093232+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:30.800769+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:31.151752+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:32.298570+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:32.707885+00:00", "test_id": "T8", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:33.191292+00:00", "test_id": "T8", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:33.544626+00:00", "test_id": "T9", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:34.014728+00:00", "test_id": "T9", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:34.372782+00:00", "test_id": "T10", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:34.842525+00:00", "test_id": "T10", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:35.200174+00:00", "test_id": "T11", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:35.855155+00:00", "test_id": "T11", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:36.270161+00:00", "test_id": "T39", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:37.914978+00:00", "test_id": "T39", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:38.265558+00:00", "test_id": "T40", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:39.914044+00:00", "test_id": "T40", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:40.263164+00:00", "test_id": "T41", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:45.328688+00:00", "test_id": "T41", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:46.838436+00:00", "test_id": "T42", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:51.276751+00:00", "test_id": "T42", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:52.842470+00:00", "test_id": "T43", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:53.555149+00:00", "test_id": "T43", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:53.904189+00:00", "test_id": "T44", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:53.906369+00:00", "test_id": "T44", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:54.260469+00:00", "test_id": "T45", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:08:54.909311+00:00", "test_id": "T45", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:09:08.280Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.282Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.282Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.282Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.282Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.282Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.283Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.283Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.283Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.284Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.284Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.285Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.285Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:08.285Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:09:15.970Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:17.269Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:17.274Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:19.083Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:19.084Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:20.591Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:20.597Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:20.860Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:20.861Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.117Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.122Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.388Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.389Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.642Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.643Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.888Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:21.892Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:22.844Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:22.846Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:23.994Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:24.125Z","test_id":"T48","status":"running","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:26.629Z","test_id":"T48","status":"green","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:26.634Z","test_id":"T50","status":"running","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:26.774Z","test_id":"T50","status":"green","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:26.779Z","test_id":"T55","status":"running","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:28.582Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:28.587Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:09:30.326Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}

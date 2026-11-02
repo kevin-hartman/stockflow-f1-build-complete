@@ -3,7 +3,7 @@
   "given": "no stock records exist",
   "when": "the operator opens the home view",
   "then": "an explicit empty state is shown in place of the table that says no stock has been filed yet and points to the form for filing a first record, rather than a blank page or an empty table",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers the zero-records outcome; AC1 only covers a populated table, and a build can render rows yet show a blank page when there are none."

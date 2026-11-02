@@ -3,7 +3,7 @@
   "given": "the operator is in the app with the home stock table showing no record for (NUT-09, C-03)",
   "when": "they file a valid record for SKU \"NUT-09\", location \"C-03\", quantity 8 through the form and return to the home view",
   "then": "the home table includes a NUT-09 / C-03 / 8 row without a full-page reload of the app",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers the in-app freshness of the table after a write (R5 single-page flow); AC1 reads pre-existing records on first load, so a build can list seeded data yet show a stale table after filing."

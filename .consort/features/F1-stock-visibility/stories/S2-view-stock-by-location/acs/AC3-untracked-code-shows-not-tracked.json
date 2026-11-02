@@ -3,7 +3,7 @@
   "given": "a stock record exists for (WID-001, A-01, quantity 12) with no tracking code, alongside a record for (BOLT-07, A-01, quantity 40) with a tracking code",
   "when": "the operator opens the home view",
   "then": "the WID-001 row renders cleanly with its tracking code shown as \"not tracked\", while the BOLT-07 row shows its tracking code",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers rendering of the absent optional field (produced by S1 AC2); AC1 asserts SKU/location/quantity only, so a build can list rows yet render a null tracking code as blank, 'null' or an error."

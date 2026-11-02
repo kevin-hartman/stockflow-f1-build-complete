@@ -3,7 +3,7 @@
   "given": "stock records exist for (WID-001, A-01, quantity 12), (BOLT-07, A-01, quantity 40) and (WID-001, B-02, quantity 3)",
   "when": "the operator opens the home view",
   "then": "a stock-by-location table shows exactly those three records, one row each with its SKU, location and quantity, ordered by location so all records at the same location are adjacent",
-  "status": "draft",
+  "status": "passing",
   "layer": "E2E",
   "architectural_notes": "E2E client-server contract: the home page (client/src/pages via a hooks/api list hook) fetches GET /api/stock-records from app/routes/stock_records.py, which delegates to app/services/stock_records.py; the repository app/repositories/stock_records.py owns the ORDER BY location, sku query (AP1). The client renders one stock-row per item grouped under location-group headers without re-sorting. Verified by Playwright against the live API over three seeded rows on the paired branch, plus a pytest-bdd API test asserting the list order.",
   "ui_seams": [
