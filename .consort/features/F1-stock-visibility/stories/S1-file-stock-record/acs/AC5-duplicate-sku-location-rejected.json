@@ -3,7 +3,7 @@
   "given": "a stock record already exists for SKU \"WID-001\" at location \"A-01\" with quantity 12",
   "when": "the operator files another record for SKU \"WID-001\" at location \"A-01\" with quantity 5",
   "then": "the submission is refused with an inline message stating a record for that SKU at that location already exists, exactly one record for (WID-001, A-01) remains, and it still holds quantity 12",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers the (sku, location) write-collision outcome, independently breakable from a first write (AC1)."

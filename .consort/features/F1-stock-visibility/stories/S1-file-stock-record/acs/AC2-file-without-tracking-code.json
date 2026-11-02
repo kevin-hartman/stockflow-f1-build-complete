@@ -3,7 +3,7 @@
   "given": "the operator is on the stock-record form",
   "when": "they submit a valid SKU, location and quantity with the optional tracking code left blank",
   "then": "the record is accepted and stored with no tracking code (the tracking code is absent, not an empty or placeholder value)",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers the optional-field omitted path that reader stories render as 'not tracked'; AC1 only files a record with a tracking code."

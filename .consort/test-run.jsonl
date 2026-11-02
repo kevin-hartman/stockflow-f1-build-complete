@@ -1,0 +1,407 @@
+{"ts": "2026-11-02T08:55:21.803285+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:30.508100+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:33.051389+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:33.054050+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:33.673830+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:34.008907+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:35.255939+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:36.113810+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:36.760324+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:37.207536+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:37.875468+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:38.411914+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:39.106206+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:39.503808+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:40.123656+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:40.125806+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:40.455403+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:40.458970+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:40.964448+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:41.469838+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:42.070629+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:42.072293+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:42.737686+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:42.741953+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:43.416429+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:44.224028+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:44.827083+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:46.040865+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:46.685273+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:55:48.312652+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T08:56:01.926Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.929Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.929Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.929Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.929Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.930Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.930Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.930Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:01.930Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:56:10.856Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:15.284Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:15.289Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:16.993Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:16.995Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:18.358Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:18.364Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:18.632Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:18.633Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:18.897Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:18.901Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:19.158Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:19.159Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:19.414Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:19.415Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:19.658Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:19.661Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:20.607Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:20.608Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:56:21.710Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts": "2026-11-02T08:56:54.851161+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:56:54.853111+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:56:56.129685+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:56:58.050408+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:56:59.252366+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:56:59.623666+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:57:12.701072+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:57:16.484759+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T08:57:33.825Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.826Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.827Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.827Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.827Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.828Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.828Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.829Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:33.829Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:57:40.452Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:42.282Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:42.288Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:43.598Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:43.600Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.062Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.066Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.330Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.331Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.582Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.586Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.826Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:45.827Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:46.082Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:46.083Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:46.349Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:46.354Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:47.330Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:47.331Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:57:48.421Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T08:58:38.642Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.644Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.644Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.644Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.645Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.645Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.645Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.645Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:58:38.646Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts": "2026-11-02T08:58:58.704942+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:58:58.706407+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:58:59.741991+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:58:59.885929+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:59:00.542104+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:59:00.963143+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:59:11.895809+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T08:59:15.687015+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T08:59:34.529Z","test_id":"T5","status":"red","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.531Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.531Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.531Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.531Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.532Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.532Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.532Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T08:59:34.532Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts": "2026-11-02T09:00:35.872734+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:39.603188+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:40.810876+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:40.813630+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:41.093681+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:41.236969+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:41.806370+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:42.178735+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:42.453953+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:42.649354+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:42.926797+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:43.112644+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:43.395272+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:43.646500+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:43.914390+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:43.916459+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:44.186919+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:44.191557+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:44.490522+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:44.679500+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:44.946640+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:44.948884+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:45.237731+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:45.244294+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:45.519957+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:45.889257+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:46.171820+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:46.729676+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:47.009091+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:00:47.708734+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T09:00:57.538Z","test_id":"T5","status":"red","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.540Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.540Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.540Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.541Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.541Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.541Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.541Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:00:57.542Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.133Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.135Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.136Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.136Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.136Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.136Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.137Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.137Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:22.137Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:01:33.489Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:35.253Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:35.258Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:37.082Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:37.083Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:38.460Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:38.465Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:38.720Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:38.721Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:38.971Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:38.975Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:39.222Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:39.223Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:39.479Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:39.480Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:39.731Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:39.734Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:40.684Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:40.685Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:01:41.782Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts": "2026-11-02T09:01:48.059531+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:51.664560+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:52.818944+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:52.820782+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:53.124895+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:53.268799+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:53.862242+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:54.247255+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:54.530132+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:54.705162+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:54.982100+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:55.162120+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:55.439257+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:55.620258+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:55.940389+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:55.942506+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:56.229500+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:56.233645+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:56.514559+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:56.689765+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:56.977332+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:56.979785+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:57.268039+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:57.274068+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:57.550894+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:57.928643+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:58.199666+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:58.777272+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:59.057581+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:01:59.816276+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:20.184522+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:20.186186+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:21.153020+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:21.290221+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:21.853235+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:22.251790+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:33.443204+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:02:37.142358+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T09:02:58.118Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.120Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.121Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.121Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.121Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.121Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.122Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.122Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:02:58.122Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:03:02.367Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:03.557Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:03.563Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:04.870Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:04.871Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:06.367Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:06.371Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:06.619Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:06.620Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:06.881Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:06.885Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:07.121Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:07.122Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:07.379Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:07.379Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:07.615Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:07.620Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:08.578Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:08.580Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:03:09.697Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts": "2026-11-02T09:03:33.599942+00:00", "test_id": "T8", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:34.852346+00:00", "test_id": "T8", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:35.204364+00:00", "test_id": "T9", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:35.695711+00:00", "test_id": "T9", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:36.026802+00:00", "test_id": "T10", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:36.776816+00:00", "test_id": "T10", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:37.118680+00:00", "test_id": "T11", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:03:37.768691+00:00", "test_id": "T11", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:02.495125+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:08.932168+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:11.281318+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:11.283685+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:11.880136+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:12.132166+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:13.131786+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:14.016164+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:14.499868+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:14.782489+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:15.251741+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:15.524665+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:16.170380+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:16.614570+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:17.131919+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:17.133938+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:17.679814+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:17.685424+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:18.185595+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:18.594290+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:18.932293+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:18.934711+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:19.502604+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:19.506871+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:20.881656+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:21.944027+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:23.003960+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:24.372628+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:24.810598+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:26.539598+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:27.366006+00:00", "test_id": "T8", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:28.010713+00:00", "test_id": "T8", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:28.820108+00:00", "test_id": "T9", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:29.903351+00:00", "test_id": "T9", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:30.370122+00:00", "test_id": "T10", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:30.987121+00:00", "test_id": "T10", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:31.533348+00:00", "test_id": "T11", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:04:32.307532+00:00", "test_id": "T11", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:03.179265+00:00", "test_id": "T8", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:04.809779+00:00", "test_id": "T8", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:05.274483+00:00", "test_id": "T9", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:05.894847+00:00", "test_id": "T9", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:06.333029+00:00", "test_id": "T10", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:06.823594+00:00", "test_id": "T10", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:07.264375+00:00", "test_id": "T11", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:05:08.189542+00:00", "test_id": "T11", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T09:05:51.819Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.822Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.822Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.822Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.822Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.823Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.823Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.823Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:51.823Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:05:59.698Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:01.517Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:01.523Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:03.841Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:03.842Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.039Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.044Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.300Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.302Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.556Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.561Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.816Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:06.817Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:07.066Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:07.067Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:07.318Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:07.323Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:08.270Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:08.271Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:06:09.500Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts": "2026-11-02T09:06:45.061628+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:53.573918+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:56.195627+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:56.197947+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:56.769759+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:56.975038+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:57.976671+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:58.612443+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:59.068280+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:59.347438+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:59.677129+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:06:59.918110+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:00.356471+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:00.655153+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:01.108223+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:01.110042+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:01.585100+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:01.589468+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:02.132548+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:03.115634+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:03.691906+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:03.693323+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:04.445175+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:04.449952+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:04.968865+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:06.141043+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:07.067331+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:08.167016+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:08.611210+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:09.690907+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:10.038556+00:00", "test_id": "T8", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:10.407013+00:00", "test_id": "T8", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:10.683834+00:00", "test_id": "T9", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:11.035360+00:00", "test_id": "T9", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:11.293883+00:00", "test_id": "T10", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:11.644498+00:00", "test_id": "T10", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:11.921976+00:00", "test_id": "T11", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T09:07:12.416151+00:00", "test_id": "T11", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts":"2026-11-02T09:07:23.037Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.039Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.039Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.040Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.040Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.040Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.040Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.041Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:23.041Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T09:07:27.481Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:28.792Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:28.800Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:30.095Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:30.097Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:31.555Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:31.559Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:31.811Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:31.813Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.061Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.066Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.330Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.331Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.591Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.592Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.837Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:32.841Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:33.795Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:33.797Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T09:07:34.903Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}

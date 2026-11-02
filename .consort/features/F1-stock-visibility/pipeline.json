@@ -3,7 +3,7 @@
   "feature_id": "F1-stock-visibility",
   "stories": {
     "S1-file-stock-record": {
-      "status": "building",
+      "status": "awaiting-acceptance",
       "acceptance": {
         "decision": "revise",
         "history": [
@@ -35,6 +35,15 @@
         ],
         "approver": "Kevin Hartman",
         "approved_at": "2026-11-02T05:05:40.877Z"
+      },
+      "experiment": {
+        "slug": "exp1",
+        "branch": "experiment-s1-file-stock-record-exp1",
+        "parent": "feature-f1-stock-visibility",
+        "n": 1,
+        "status": "active",
+        "cut_at": "2026-11-02T08:51:13.069Z",
+        "design_fingerprint": "dfd6fb33fb503d75"
       }
     },
     "S2-view-stock-by-location": {

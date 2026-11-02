@@ -3,7 +3,7 @@
   "given": "the operator is on the stock-record form",
   "when": "they submit a quantity that is not a whole number of zero or more (e.g. -3 or 2.5)",
   "then": "an error naming the quantity field is shown inline next to it and no stock record is created",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers a present-but-invalid value, distinct from AC3's missing-field case; a build can reject blanks yet accept negatives."

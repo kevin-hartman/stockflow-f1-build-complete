@@ -3,7 +3,7 @@
   "given": "the operator is on the stock-record form",
   "when": "they submit with any one of SKU, location or quantity left blank",
   "then": "an error naming that field is shown inline next to it (never a generic 'bad request'), the other entered values remain in the form, and no stock record is created",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers the incomplete-submission rejection path; AC1/AC2 only cover accepted submissions."
