@@ -1,0 +1,20 @@
+{
+  "id": "AC4-invalid-quantity-inline-error",
+  "given": "the operator is on the stock-record form",
+  "when": "they submit a quantity that is not a whole number of zero or more (e.g. -3 or 2.5)",
+  "then": "an error naming the quantity field is shown inline next to it and no stock record is created",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers a present-but-invalid value, distinct from AC3's missing-field case; a build can reject blanks yet accept negatives."
+  },
+  "layer": "E2E",
+  "architectural_notes": "E2E client-server contract: the service rejects a quantity that is not a whole number >= 0 (negative, decimal, non-numeric) with a 422 envelope keyed on quantity, rendered inline in the quantity field__error seam; defense-in-depth is the DB CHECK quantity >= 0 (PI). Owner app/services/stock_records.py. Verified by Playwright against the live API plus a DB check that nothing was stored.",
+  "ui_seams": [
+    "stock-record-form",
+    "stock-record-quantity",
+    "stock-record-submit",
+    "stock-record-quantity-error"
+  ],
+  "api_contract_id": "EP1-create-stock-record"
+}

@@ -1,0 +1,5 @@
+[
+{"id":"bhv-1","description":"POST /api/stock-records with a valid sku, location, quantity and tracking_code blank (empty string) returns 201 with tracking_code null in the response body","ac_id":"AC2-file-without-tracking-code","status":"pending","kind":"behavior"},
+{"id":"bhv-2","description":"POST /api/stock-records with a valid sku, location, quantity and the tracking_code key omitted returns 201 with tracking_code null in the response body","ac_id":"AC2-file-without-tracking-code","status":"pending","kind":"behavior"},
+{"id":"bhv-3","description":"POST /api/stock-records with a whitespace-only tracking_code returns 201 with tracking_code null, not an empty or placeholder string","ac_id":"AC2-file-without-tracking-code","status":"pending","kind":"behavior"}
+]

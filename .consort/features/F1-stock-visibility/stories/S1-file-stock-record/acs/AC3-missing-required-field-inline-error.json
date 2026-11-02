@@ -1,0 +1,24 @@
+{
+  "id": "AC3-missing-required-field-inline-error",
+  "given": "the operator is on the stock-record form",
+  "when": "they submit with any one of SKU, location or quantity left blank",
+  "then": "an error naming that field is shown inline next to it (never a generic 'bad request'), the other entered values remain in the form, and no stock record is created",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers the incomplete-submission rejection path; AC1/AC2 only cover accepted submissions."
+  },
+  "layer": "E2E",
+  "architectural_notes": "E2E client-server contract: validation is decided server-side at the boundary/service (app/services/stock_records.py required-field check) and returned as a 422 field-keyed error envelope; the client renders each message in the matching field__error seam and keeps the other entered values (no reload, R7). Errors route through describeError() for non-field failures. Verified by Playwright against the live API plus a DB check that no row was created.",
+  "ui_seams": [
+    "stock-record-form",
+    "stock-record-sku",
+    "stock-record-location",
+    "stock-record-quantity",
+    "stock-record-submit",
+    "stock-record-sku-error",
+    "stock-record-location-error",
+    "stock-record-quantity-error"
+  ],
+  "api_contract_id": "EP1-create-stock-record"
+}

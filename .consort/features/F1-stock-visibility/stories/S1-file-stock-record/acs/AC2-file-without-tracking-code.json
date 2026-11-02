@@ -1,0 +1,14 @@
+{
+  "id": "AC2-file-without-tracking-code",
+  "given": "the operator is on the stock-record form",
+  "when": "they submit a valid SKU, location and quantity with the optional tracking code left blank",
+  "then": "the record is accepted and stored with no tracking code (the tracking code is absent, not an empty or placeholder value)",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers the optional-field omitted path that reader stories render as 'not tracked'; AC1 only files a record with a tracking code."
+  },
+  "layer": "API",
+  "architectural_notes": "API: the stored-absence rule is a backend write rule - the service normalizes a blank/whitespace tracking_code to NULL before the repository insert, so the column holds SQL NULL, never '' or a placeholder. Owner app/services/stock_records.py; tracking_code is nullable in the schema (no not_null invariant). Verified by a pytest-bdd test posting to the endpoint and reading the row back from the paired branch DB.",
+  "api_contract_id": "EP1-create-stock-record"
+}

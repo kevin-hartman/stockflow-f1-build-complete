@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": "T56",
+      "description": "GET /api/stock-records/{sku}?location= for an existing record responds with Content-Type application/json and a JSON object body",
+      "ac_id": "AC1-open-detail-from-row",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR5-spa-json-api"
+    },
+    {
+      "id": "T57",
+      "description": "GET /api/stock-records/{sku}?location= for a missing (sku, location) responds 404 application/json with body {error: 'Stock record not found'} rather than an HTML error page",
+      "ac_id": "AC1-open-detail-from-row",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR5-spa-json-api"
+    },
+    {
+      "id": "T58",
+      "description": "SkuDetail rendered for one (sku, location) key against the real EP3 shows that record's sku, location, quantity and tracking code in the detail-sku, detail-location, detail-quantity and detail-tracking-code seams and none of a sibling record's data",
+      "ac_id": "AC1-open-detail-from-row",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/SkuDetail.test.tsx"
+    },
+    {
+      "id": "T59",
+      "description": "Playwright e2e against the live app: clicking the seeded WID-001/A-01 stock-row on / SPA-navigates to /sku/:sku?location=A-01 with no document reload (per-run-unique randomUUID-suffixed sku) and sku-detail is visible",
+      "ac_id": "AC1-open-detail-from-row",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-open.spec.ts"
+    },
+    {
+      "id": "T60",
+      "description": "Playwright e2e at route /sku/:sku?location=A-01: detail-sku, detail-location, detail-quantity and detail-tracking-code show the clicked record's values (12 and A01-B7-S0042) from the real API",
+      "ac_id": "AC1-open-detail-from-row",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-open.spec.ts"
+    },
+    {
+      "id": "T61",
+      "description": "Playwright e2e: after opening the clicked record's detail, no data from the second seeded record (BOLT-07 equivalent, 40) appears inside sku-detail",
+      "ac_id": "AC1-open-detail-from-row",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-open.spec.ts"
+    },
+    {
+      "id": "T62",
+      "description": "EP3 detail response for a record stored with NULL tracking_code carries JSON null for tracking_code, with no server-side 'not tracked' placeholder string",
+      "ac_id": "AC2-absent-tracking-code-not-tracked",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR9-graceful-rendering"
+    },
+    {
+      "id": "T63",
+      "description": "SkuDetail rendered for a record filed with no tracking code shows the detail-not-tracked pill reading 'not tracked' inside detail-tracking-code, never blank, 'null' or an error",
+      "ac_id": "AC2-absent-tracking-code-not-tracked",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/SkuDetail.test.tsx"
+    },
+    {
+      "id": "T64",
+      "description": "Playwright e2e at route /sku/:sku?location=A-01 for a record filed with no tracking code (randomUUID-suffixed sku): detail-tracking-code contains the detail-not-tracked pill reading 'not tracked', not blank, 'null' or an error",
+      "ac_id": "AC2-absent-tracking-code-not-tracked",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-not-tracked.spec.ts"
+    },
+    {
+      "id": "T65",
+      "description": "Playwright e2e at route /sku/:sku?location=A-01 for a tracking-code-less record: detail-sku, detail-location and detail-quantity still render their values",
+      "ac_id": "AC2-absent-tracking-code-not-tracked",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-not-tracked.spec.ts"
+    },
+    {
+      "id": "T66",
+      "description": "EP3 detail response carries par_level as JSON null independently of a non-null tracking_code on the same record, with the service passing each optional field through unaltered",
+      "ac_id": "AC3-par-level-judged-independently",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR9-graceful-rendering"
+    },
+    {
+      "id": "T67",
+      "description": "SkuDetail rendered for a tracked record with par_level null shows the detail-not-tracked pill in detail-par-level while detail-tracking-code shows the real tracking code",
+      "ac_id": "AC3-par-level-judged-independently",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/SkuDetail.test.tsx"
+    },
+    {
+      "id": "T68",
+      "description": "Playwright e2e at route /sku/:sku?location=A-01 for a tracked record with no par level: detail-par-level contains the detail-not-tracked pill 'not tracked'",
+      "ac_id": "AC3-par-level-judged-independently",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-par-level.spec.ts"
+    },
+    {
+      "id": "T69",
+      "description": "Playwright e2e on the same detail view: detail-tracking-code shows A01-B7-S0042 with no not-tracked pill while detail-par-level shows one",
+      "ac_id": "AC3-par-level-judged-independently",
+      "status": "pending",
+      "kind": "client",
+      "scenario_file": "client/tests/e2e/sku-detail-par-level.spec.ts"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "AC3-par-level-judged-independently",
+  "given": "a stock record exists for (WID-001, A-01, quantity 12, tracking code \"A01-B7-S0042\") with no par level recorded",
+  "when": "the operator opens that record's SKU detail view",
+  "then": "the par level field shows \"not tracked\" while the tracking code field on the same view shows A01-B7-S0042, each optional field judged on its own",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers per-field independent judgment: AC2 only tests the tracking code absent, so a build could mark every optional field 'not tracked' whenever any one is missing, or only when the tracking code is missing."
+  },
+  "layer": "E2E",
+  "architectural_notes": "E2E client-server contract: the detail response returns par_level null (F1 stores no par level, OD4) alongside the real tracking_code; the client judges each optional field on its own via one per-field null -> detail-not-tracked mapping, so detail-par-level shows 'not tracked' while detail-tracking-code shows A01-B7-S0042. Owner client/src/components detail field renderer; service passes fields through unaltered. Verified by Playwright against the live API with a tracked row seeded on the paired branch.",
+  "ui_seams": [
+    "sku-detail",
+    "detail-par-level",
+    "detail-tracking-code",
+    "detail-not-tracked"
+  ],
+  "api_contract_id": "EP3-get-stock-record-detail"
+}

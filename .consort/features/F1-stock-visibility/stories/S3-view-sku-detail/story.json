@@ -1,0 +1,1 @@
+{"id":"S3-view-sku-detail","asA":"warehouse operator","iWantTo":"open a single record's SKU detail view showing not tracked for missing optional fields","soThat":"I can inspect one record fully","requires_e2e":true,"independence":{"distinct_from_prior":true,"rationale":"Adds the detail route and per-field not-tracked rendering, not delivered by the form or the table."}}

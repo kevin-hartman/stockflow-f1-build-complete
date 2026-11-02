@@ -1,0 +1,5 @@
+[
+  {"id": "cmp-1", "description": "SkuDetail rendered for one (sku, location) key against the real EP3 shows that record's sku, location, quantity and tracking code in the detail-sku, detail-location, detail-quantity and detail-tracking-code seams and none of a sibling record's data", "ac_id": "AC1-open-detail-from-row", "status": "pending", "kind": "component", "scenario_file": "client/tests/components/SkuDetail.test.tsx"},
+  {"id": "cmp-2", "description": "SkuDetail rendered for a record filed with no tracking code shows the detail-not-tracked pill reading 'not tracked' inside detail-tracking-code, never blank, 'null' or an error", "ac_id": "AC2-absent-tracking-code-not-tracked", "status": "pending", "kind": "component", "scenario_file": "client/tests/components/SkuDetail.test.tsx"},
+  {"id": "cmp-3", "description": "SkuDetail rendered for a tracked record with par_level null shows the detail-not-tracked pill in detail-par-level while detail-tracking-code shows the real tracking code", "ac_id": "AC3-par-level-judged-independently", "status": "pending", "kind": "component", "scenario_file": "client/tests/components/SkuDetail.test.tsx"}
+]

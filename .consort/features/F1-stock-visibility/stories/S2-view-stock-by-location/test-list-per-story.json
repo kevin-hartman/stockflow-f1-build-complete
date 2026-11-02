@@ -1,0 +1,129 @@
+{
+  "feature_id": "F1-stock-visibility",
+  "story_id": "S2-view-stock-by-location",
+  "ordered_for": "design-momentum",
+  "items": [
+    {
+      "id": "T39",
+      "description": "GET /api/stock-records returns a bare JSON array containing exactly the three seeded records (WID-001/A-01/12, BOLT-07/A-01/40, WID-001/B-02/3), each with id, sku, location, quantity and tracking_code, using per-run-unique SKUs/locations",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "behavior"
+    },
+    {
+      "id": "T40",
+      "description": "GET /api/stock-records returns records ordered by location then sku, so records at the same location are adjacent",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "behavior"
+    },
+    {
+      "id": "T41",
+      "description": "Downgrading to the SC2 add-index migration's own down_revision (the SC1 create-table revision id, not a relative step) then upgrading head recreates index ix_stock_records_location_sku on (location, sku) on the paired branch",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "fitness",
+      "schema_change_id": "SC2-add-location-sku-index"
+    },
+    {
+      "id": "T42",
+      "description": "Stock records seeded with per-run-unique keys survive the SC2 add-index migration downgrade to its own down_revision and upgrade head with their original sku, location and quantity values",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "fitness",
+      "schema_change_id": "SC2-add-location-sku-index"
+    },
+    {
+      "id": "T43",
+      "description": "GET /api/stock-records responds with Content-Type application/json and a bare JSON array body",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR5-spa-json-api"
+    },
+    {
+      "id": "T44",
+      "description": "The test session's engine URL is read from the DATABASE_URL environment variable and resolves to the paired Lakebase branch, not sqlite or in-memory",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR4-real-branch-tests"
+    },
+    {
+      "id": "T45",
+      "description": "The alembic head, including the SC2 index revision, is applied on the paired branch before the list tests run",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "fitness",
+      "nfr_id": "NFR4-real-branch-tests"
+    },
+    {
+      "id": "T46",
+      "description": "StockTable rendered against a mocked GET /api/stock-records response shows one stock-row per seeded record inside the stock-table seam",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/StockTable.test.tsx"
+    },
+    {
+      "id": "T47",
+      "description": "StockTable rendered against mocked records at two locations shows each row's stock-cell-sku, stock-cell-location and stock-cell-quantity text with records at the same location adjacent in the order the API returned them",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/StockTable.test.tsx"
+    },
+    {
+      "id": "T48",
+      "description": "Playwright e2e navigates to `/` through the real App against the live API with three seeded records (run-unique SKUs, two sharing a location) and asserts exactly three stock-row elements appear inside the stock-table, each with stock-cell-sku, stock-cell-location and stock-cell-quantity, ordered by location with same-location rows adjacent under a location-group header (client/tests/e2e/stock-by-location.spec.ts)",
+      "ac_id": "AC1-table-lists-records-by-location",
+      "status": "pending",
+      "kind": "client"
+    },
+    {
+      "id": "T49",
+      "description": "StockTable rendered against a mocked empty API response shows the empty-state seam with its empty-state-cta link to /stock/new instead of the stock-table",
+      "ac_id": "AC2-empty-state-when-no-records",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/StockTable.test.tsx"
+    },
+    {
+      "id": "T50",
+      "description": "Playwright e2e opens `/` against the live API with no stock records and asserts the empty-state with text 'No stock filed yet' is visible, its empty-state-cta links to /stock/new, and the stock-table is not rendered (client/tests/e2e/stock-empty-state.spec.ts)",
+      "ac_id": "AC2-empty-state-when-no-records",
+      "status": "pending",
+      "kind": "client"
+    },
+    {
+      "id": "T51",
+      "description": "A row for a record filed with no tracking code, from a mocked API response, renders the not-tracked pill with the text 'not tracked' in stock-cell-tracking-code, never blank or 'null'",
+      "ac_id": "AC3-untracked-code-shows-not-tracked",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/StockTable.test.tsx"
+    },
+    {
+      "id": "T52",
+      "description": "A row for a record filed with a tracking code, from a mocked API response, renders that code text in stock-cell-tracking-code without the not-tracked pill",
+      "ac_id": "AC3-untracked-code-shows-not-tracked",
+      "status": "pending",
+      "kind": "component",
+      "scenario_file": "client/tests/components/StockTable.test.tsx"
+    },
+    {
+      "id": "T53",
+      "description": "Playwright e2e opens `/` against the live API with one untracked record and one tracked record (run-unique SKUs) and asserts the untracked row's stock-cell-tracking-code contains the not-tracked pill reading 'not tracked' while the tracked row's cell shows its code value (client/tests/e2e/stock-not-tracked.spec.ts)",
+      "ac_id": "AC3-untracked-code-shows-not-tracked",
+      "status": "pending",
+      "kind": "client"
+    },
+    {
+      "id": "T55",
+      "description": "Playwright e2e on the live app files a record with a run-unique SKU at C-03 quantity 8 via the stock-record-form at /stock/new, returns to `/` through the navbar Stock link, and asserts the new stock-row appears in the stock-table with no document navigation or full-page reload (client/tests/e2e/stock-new-record-appears.spec.ts)",
+      "ac_id": "AC4-new-record-appears-without-reload",
+      "status": "pending",
+      "kind": "client"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "AC3-untracked-code-shows-not-tracked",
+  "given": "a stock record exists for (WID-001, A-01, quantity 12) with no tracking code, alongside a record for (BOLT-07, A-01, quantity 40) with a tracking code",
+  "when": "the operator opens the home view",
+  "then": "the WID-001 row renders cleanly with its tracking code shown as \"not tracked\", while the BOLT-07 row shows its tracking code",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers rendering of the absent optional field (produced by S1 AC2); AC1 asserts SKU/location/quantity only, so a build can list rows yet render a null tracking code as blank, 'null' or an error."
+  },
+  "layer": "E2E",
+  "architectural_notes": "E2E client-server contract: the list returns tracking_code as null for an untracked record (stored NULL per S1 AC2/OD2); the client maps null to the not-tracked pill in stock-cell-tracking-code and renders the value otherwise, never blank or 'null'. Rendering lives in a presentational component under client/src/components; no server-side placeholder. Verified by Playwright against the live API with one NULL and one tracked row seeded on the paired branch (plus a component test for the null -> pill mapping).",
+  "ui_seams": [
+    "stock-row",
+    "stock-cell-tracking-code",
+    "not-tracked"
+  ],
+  "api_contract_id": "EP2-list-stock-records"
+}

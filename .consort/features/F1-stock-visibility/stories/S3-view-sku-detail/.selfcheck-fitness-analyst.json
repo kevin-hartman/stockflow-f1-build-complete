@@ -1,0 +1,6 @@
+[
+  {"id": "fit-1", "description": "GET /api/stock-records/{sku}?location= for an existing record responds with Content-Type application/json and a JSON object body", "ac_id": "AC1-open-detail-from-row", "status": "pending", "kind": "fitness", "nfr_id": "NFR5-spa-json-api"},
+  {"id": "fit-2", "description": "GET /api/stock-records/{sku}?location= for a missing (sku, location) responds 404 application/json with body {error: 'Stock record not found'} rather than an HTML error page", "ac_id": "AC1-open-detail-from-row", "status": "pending", "kind": "fitness", "nfr_id": "NFR5-spa-json-api"},
+  {"id": "fit-3", "description": "EP3 detail response for a record stored with NULL tracking_code carries JSON null for tracking_code, with no server-side 'not tracked' placeholder string", "ac_id": "AC2-absent-tracking-code-not-tracked", "status": "pending", "kind": "fitness", "nfr_id": "NFR9-graceful-rendering"},
+  {"id": "fit-4", "description": "EP3 detail response carries par_level as JSON null independently of a non-null tracking_code on the same record, with the service passing each optional field through unaltered", "ac_id": "AC3-par-level-judged-independently", "status": "pending", "kind": "fitness", "nfr_id": "NFR9-graceful-rendering"}
+]

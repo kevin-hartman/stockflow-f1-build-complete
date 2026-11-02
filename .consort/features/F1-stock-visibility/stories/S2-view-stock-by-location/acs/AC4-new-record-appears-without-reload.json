@@ -1,0 +1,21 @@
+{
+  "id": "AC4-new-record-appears-without-reload",
+  "given": "the operator is in the app with the home stock table showing no record for (NUT-09, C-03)",
+  "when": "they file a valid record for SKU \"NUT-09\", location \"C-03\", quantity 8 through the form and return to the home view",
+  "then": "the home table includes a NUT-09 / C-03 / 8 row without a full-page reload of the app",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers the in-app freshness of the table after a write (R5 single-page flow); AC1 reads pre-existing records on first load, so a build can list seeded data yet show a stale table after filing."
+  },
+  "layer": "E2E",
+  "architectural_notes": "E2E client-server contract across S1+S2: filing via POST /api/stock-records (EP1), then SPA navigation back to / re-fetches GET /api/stock-records on route mount (no cached stale list), so the NUT-09/C-03/8 row appears with no full-page reload (NFR5). Freshness is owned by the client list hook (fetch on mount / invalidate after create). Verified by Playwright against the live API asserting no document navigation and the new stock-row present.",
+  "ui_seams": [
+    "stock-record-form",
+    "stock-record-submit",
+    "stock-record-success",
+    "stock-table",
+    "stock-row"
+  ],
+  "api_contract_id": "EP2-list-stock-records"
+}

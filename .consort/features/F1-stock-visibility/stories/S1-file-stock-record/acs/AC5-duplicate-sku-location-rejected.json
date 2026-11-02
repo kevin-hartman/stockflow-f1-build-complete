@@ -1,0 +1,23 @@
+{
+  "id": "AC5-duplicate-sku-location-rejected",
+  "given": "a stock record already exists for SKU \"WID-001\" at location \"A-01\" with quantity 12",
+  "when": "the operator files another record for SKU \"WID-001\" at location \"A-01\" with quantity 5",
+  "then": "the submission is refused with an inline message stating a record for that SKU at that location already exists, exactly one record for (WID-001, A-01) remains, and it still holds quantity 12",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers the (sku, location) write-collision outcome, independently breakable from a first write (AC1)."
+  },
+  "layer": "E2E",
+  "ui_seams": [
+    "stock-record-form",
+    "stock-record-sku",
+    "stock-record-location",
+    "stock-record-quantity",
+    "stock-record-submit",
+    "stock-record-duplicate-error",
+    "stock-record-success"
+  ],
+  "api_contract_id": "EP1-create-stock-record",
+  "architectural_notes": "E2E client-server contract: the collision rule is decided server-side (app/services/stock_records.py refuses an existing (sku, location), backstopped by the PI1 unique constraint in app/repositories/stock_records.py) and returned as 409; the client maps that real 409 to the stock-record-duplicate-error seam above the submit button with the exact text 'A record for that SKU at that location already exists', keeps SKU/location/quantity in the fields and shows no stock-record-success. Must be covered by a component test (mocked 409 -> seam text) AND a Playwright e2e against the live API (real second submit -> seam visible), in addition to the existing API/DB tests asserting 409 and that the single (WID-001, A-01) row still holds quantity 12."
+}

@@ -1,0 +1,28 @@
+{
+  "ordinal": 18,
+  "step": 0,
+  "label": "revise-route",
+  "kind": "revise-route",
+  "role": "test-strategist",
+  "story": "S1-file-stock-record",
+  "action": {
+    "kind": "revise-route",
+    "story": "S1-file-stock-record",
+    "role": "test-strategist",
+    "gate": "test_list",
+    "reason": "blocking smell \"reflect-testlist-defect\": reflection gate: T7 (AC1) and T38 (AC5) assert the home route `/` lists a `stock-row` for the filed SKU. The home stock table and `stock-row` seam belong to F1-S2 (IA: 'Home stock-by-location table (F1-S2)'), not built in S1, so these tests are unsatisfiable inside S1. Verify the stored row via the paired-branch DB or the API (GET/SELECT), or assert only S1 seams on /stock/new.; T5 and T34 are kind:component (jsdom Vitest harness) but their descriptions say 'to the real API' / 'when the real API returns 409'. A component test has no live backend. The IA and AC5 notes require a mocked 409 -> seam text at the component layer, with the real-API check left to the Playwright e2e (T36). Rewrite both descriptions to use a mocked fetch/response, and drop the 'randomUUID-suffixed sku' real-API premise from T34.",
+    "source": "smell:reflect-testlist-defect"
+  },
+  "produced": [
+    ".consort/features/F1-stock-visibility/.handback/test-strategist.S1-file-stock-record.md",
+    ".consort/features/F1-stock-visibility/pipeline.json",
+    ".consort/features/F1-stock-visibility/stories/S1-file-stock-record/test-list-patch.json",
+    ".consort/features/F1-stock-visibility/test-list.json",
+    ".consort/smells.json"
+  ],
+  "deleted": [
+    ".consort/features/F1-stock-visibility/stories/S1-file-stock-record/reflect-verdict.json",
+    ".consort/features/F1-stock-visibility/stories/S1-file-stock-record/test-list-per-story.json"
+  ],
+  "snapshotted": false
+}

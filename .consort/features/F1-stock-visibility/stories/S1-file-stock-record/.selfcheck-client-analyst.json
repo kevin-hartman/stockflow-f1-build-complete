@@ -1,0 +1,82 @@
+[
+ {
+  "id": "cli-1",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record.spec.ts) navigates the real app to route /stock/new, fills a crypto.randomUUID()-suffixed SKU, location A-01, quantity 12 and a tracking code, submits, and the stock-record-success status reads 'Record filed'",
+  "ac_id": "AC1-file-valid-record",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record.spec.ts"
+ },
+ {
+  "id": "cli-2",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record.spec.ts) submits the /stock/new form with the unique SKU and then sees the home route / list a stock-row with that SKU holding quantity 12 and the tracking code against the live DB",
+  "ac_id": "AC1-file-valid-record",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record.spec.ts"
+ },
+ {
+  "id": "cli-3",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-validation.spec.ts) at /stock/new submits with SKU blank and sees the stock-record-sku-error seam naming the SKU field while location and quantity values remain",
+  "ac_id": "AC3-missing-required-field-inline-error",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-validation.spec.ts"
+ },
+ {
+  "id": "cli-4",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-validation.spec.ts) at /stock/new submits with location blank and sees the stock-record-location-error seam naming the location field while SKU and quantity values remain",
+  "ac_id": "AC3-missing-required-field-inline-error",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-validation.spec.ts"
+ },
+ {
+  "id": "cli-5",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-validation.spec.ts) at /stock/new submits with quantity blank and sees the stock-record-quantity-error seam naming the quantity field with no stock-record-success shown",
+  "ac_id": "AC3-missing-required-field-inline-error",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-validation.spec.ts"
+ },
+ {
+  "id": "cli-6",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-quantity.spec.ts) at /stock/new submits quantity -3 with a unique SKU and sees the stock-record-quantity-error seam inline and no stock-record-success",
+  "ac_id": "AC4-invalid-quantity-inline-error",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-quantity.spec.ts"
+ },
+ {
+  "id": "cli-7",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-quantity.spec.ts) at /stock/new submits quantity 2.5 with a unique SKU and sees the stock-record-quantity-error seam inline and no stock-record-success",
+  "ac_id": "AC4-invalid-quantity-inline-error",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-quantity.spec.ts"
+ },
+ {
+  "id": "cli-8",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-duplicate.spec.ts) files a unique SKU at A-01 with quantity 12, then files the same SKU and location with quantity 5 at /stock/new and sees the stock-record-duplicate-error seam reading 'A record for that SKU at that location already exists'",
+  "ac_id": "AC5-duplicate-sku-location-rejected",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-duplicate.spec.ts"
+ },
+ {
+  "id": "cli-9",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-duplicate.spec.ts) after the refused duplicate keeps the entered SKU, location and quantity 5 in the fields and shows no stock-record-success",
+  "ac_id": "AC5-duplicate-sku-location-rejected",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-duplicate.spec.ts"
+ },
+ {
+  "id": "cli-10",
+  "description": "Playwright e2e (client/tests/e2e/file-stock-record-duplicate.spec.ts) after the refused duplicate navigates to route / and sees exactly one stock-row for the unique SKU at A-01 still holding quantity 12",
+  "ac_id": "AC5-duplicate-sku-location-rejected",
+  "status": "pending",
+  "kind": "client",
+  "scenario_file": "client/tests/e2e/file-stock-record-duplicate.spec.ts"
+ }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "AC2-empty-state-when-no-records",
+  "given": "no stock records exist",
+  "when": "the operator opens the home view",
+  "then": "an explicit empty state is shown in place of the table that says no stock has been filed yet and points to the form for filing a first record, rather than a blank page or an empty table",
+  "status": "draft",
+  "independence": {
+    "distinct_from_prior": true,
+    "rationale": "Covers the zero-records outcome; AC1 only covers a populated table, and a build can render rows yet show a blank page when there are none."
+  },
+  "layer": "E2E",
+  "architectural_notes": "E2E client-server contract: when the real GET /api/stock-records returns an empty array the client renders the empty-state ('No stock filed yet') with empty-state-cta linking to /stock/new and does NOT render stock-table. The empty-vs-populated decision is driven by the server response, not static props. Verified by Playwright against the live API with the paired branch's stock_records cleared.",
+  "ui_seams": [
+    "empty-state",
+    "empty-state-cta",
+    "stock-table"
+  ],
+  "api_contract_id": "EP2-list-stock-records"
+}

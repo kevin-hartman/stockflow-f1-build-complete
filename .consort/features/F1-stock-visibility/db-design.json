@@ -1,0 +1,100 @@
+{
+  "feature_id": "F1-stock-visibility",
+  "tables": [
+    {
+      "name": "stock_records",
+      "columns": [
+        {
+          "name": "id",
+          "type": "BIGINT GENERATED ALWAYS AS IDENTITY",
+          "nullable": false,
+          "description": "Surrogate key"
+        },
+        {
+          "name": "sku",
+          "type": "VARCHAR(64)",
+          "nullable": false,
+          "description": "PI2"
+        },
+        {
+          "name": "location",
+          "type": "VARCHAR(64)",
+          "nullable": false,
+          "description": "PI3"
+        },
+        {
+          "name": "quantity",
+          "type": "INTEGER",
+          "nullable": false,
+          "description": "PI4/PI5; integer so fractions cannot be stored"
+        },
+        {
+          "name": "tracking_code",
+          "type": "VARCHAR(128)",
+          "nullable": true,
+          "description": "Optional; NULL when absent (AC2)"
+        },
+        {
+          "name": "created_at",
+          "type": "TIMESTAMPTZ",
+          "nullable": false,
+          "default": "now()"
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "unique_constraints": [
+        [
+          "sku",
+          "location"
+        ]
+      ],
+      "checks": [
+        {
+          "name": "ck_stock_records_quantity_non_negative",
+          "expression": "quantity >= 0"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ix_stock_records_location_sku",
+          "columns": [
+            "location",
+            "sku"
+          ],
+          "unique": false
+        }
+      ]
+    }
+  ],
+  "schema_changes": [
+    {
+      "id": "SC1-create-stock-records",
+      "story_id": "S1-file-stock-record",
+      "kind": "create_table",
+      "table": "stock_records",
+      "detail": "Create stock_records with NOT NULL sku/location/quantity, nullable tracking_code, UNIQUE(sku, location) uq_stock_records_sku_location, CHECK ck_stock_records_quantity_non_negative (quantity >= 0).",
+      "migration_note": "Initial migration; downgrade drops the table, upgrade head recreates it with all constraints (PI6)."
+    },
+    {
+      "id": "SC2-add-location-sku-index",
+      "story_id": "S2-view-stock-by-location",
+      "kind": "add_index",
+      "table": "stock_records",
+      "detail": "Create index ix_stock_records_location_sku on stock_records(location, sku) to serve ORDER BY location, sku (AP1).",
+      "migration_note": "New revision after SC1; downgrade drops the index only, leaving stock_records rows intact."
+    }
+  ],
+  "realizes_invariants": [
+    "PI1-unique-sku-location",
+    "PI2-sku-not-null",
+    "PI3-location-not-null",
+    "PI4-quantity-not-null",
+    "PI5-quantity-non-negative",
+    "PI6-create-table-reversible"
+  ],
+  "addresses_access_patterns": [
+    "AP1-list-ordered-by-location"
+  ]
+}
