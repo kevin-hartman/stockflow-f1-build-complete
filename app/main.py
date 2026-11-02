@@ -1,17 +1,31 @@
 """FastAPI application entry point."""
 
 import os
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-app = FastAPI(title="stockflow-sample", version="0.1.0")
+from app.repositories.session import warm_up
+from app.routes.stock_records import router as stock_records_router
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    warm_up()
+    yield
+
+
+app = FastAPI(title="stockflow-sample", version="0.1.0", lifespan=lifespan)
 
 
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+app.include_router(stock_records_router)
 
 
 # ── Consort dashboard table-snapshot (dev/test/CI only) ─────────────────────

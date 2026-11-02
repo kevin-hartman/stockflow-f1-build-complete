@@ -26,3 +26,15 @@ def get_session() -> Iterator[Session]:
         yield db
     finally:
         db.close()
+
+
+def warm_up() -> None:
+    """Open one pooled connection at startup so the first request skips the cold
+    token-mint + TLS connect (NFR6). Best-effort: an unreachable DB never blocks boot."""
+    from sqlalchemy import text
+
+    try:
+        with SessionLocal() as db:
+            db.execute(text("SELECT 1"))
+    except Exception:  # noqa: BLE001 — a cold DB is reported by the first real request
+        pass
