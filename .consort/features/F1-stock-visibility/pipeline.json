@@ -3,7 +3,7 @@
   "feature_id": "F1-stock-visibility",
   "stories": {
     "S1-file-stock-record": {
-      "status": "ready",
+      "status": "building",
       "acceptance": {
         "decision": "revise",
         "history": [
@@ -69,9 +69,8 @@
     }
   },
   "build_queue": [
-    "S1-file-stock-record",
     "S2-view-stock-by-location",
     "S3-view-sku-detail"
   ],
-  "build_active": null
+  "build_active": "S1-file-stock-record"
 }
