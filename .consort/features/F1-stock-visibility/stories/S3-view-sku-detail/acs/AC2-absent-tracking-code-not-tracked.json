@@ -3,7 +3,7 @@
   "given": "a stock record exists for (WID-001, A-01, quantity 12) filed with no tracking code",
   "when": "the operator opens that record's SKU detail view",
   "then": "the view renders cleanly with SKU, location and quantity shown and the tracking code field showing \"not tracked\" (not blank, 'null' or an error)",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers the absent tracking-code path (produced by S1 AC2); AC1 shows a record whose tracking code is present, so a build can render a present code yet break on a null one."

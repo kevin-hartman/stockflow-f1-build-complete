@@ -643,3 +643,215 @@
 {"ts":"2026-11-02T20:09:28.582Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
 {"ts":"2026-11-02T20:09:28.587Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
 {"ts":"2026-11-02T20:09:30.326Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts": "2026-11-02T20:14:37.957880+00:00", "test_id": "T56", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:39.608637+00:00", "test_id": "T56", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:39.971231+00:00", "test_id": "T57", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:40.210073+00:00", "test_id": "T57", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:40.562284+00:00", "test_id": "T62", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:41.274080+00:00", "test_id": "T62", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:41.629825+00:00", "test_id": "T66", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:14:42.339396+00:00", "test_id": "T66", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:14:55.485Z","test_id":"T58","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.487Z","test_id":"T63","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.487Z","test_id":"T67","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.487Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.488Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.488Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.488Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:14:55.489Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:15:05.181Z","test_id":"T64","status":"running","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:06.979Z","test_id":"T64","status":"green","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:06.982Z","test_id":"T65","status":"running","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:08.584Z","test_id":"T65","status":"green","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:08.590Z","test_id":"T59","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:10.430Z","test_id":"T59","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:10.431Z","test_id":"T60","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:12.517Z","test_id":"T60","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:12.518Z","test_id":"T61","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:15.114Z","test_id":"T61","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:15.119Z","test_id":"T68","status":"running","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:16.441Z","test_id":"T68","status":"green","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:16.442Z","test_id":"T69","status":"running","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:15:17.784Z","test_id":"T69","status":"green","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts": "2026-11-02T20:15:42.491952+00:00", "test_id": "T56", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:15:44.063511+00:00", "test_id": "T56", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:15:44.425615+00:00", "test_id": "T57", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:15:44.663219+00:00", "test_id": "T57", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:16:06.296Z","test_id":"T58","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.297Z","test_id":"T63","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.298Z","test_id":"T67","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.298Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.299Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.299Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.299Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.299Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.300Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.300Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.300Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.301Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.301Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.301Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.301Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.301Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:06.301Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:16:10.640Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:11.974Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:11.979Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:13.286Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:13.287Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:14.786Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:14.791Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.051Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.052Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.308Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.313Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.566Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.567Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.823Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:15.824Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:16.069Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:16.074Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:17.053Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:17.054Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:18.194Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:18.320Z","test_id":"T64","status":"running","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:19.969Z","test_id":"T64","status":"green","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:19.969Z","test_id":"T65","status":"running","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:21.287Z","test_id":"T65","status":"green","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:21.293Z","test_id":"T59","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:23.083Z","test_id":"T59","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:23.084Z","test_id":"T60","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:24.841Z","test_id":"T60","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:24.843Z","test_id":"T61","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:27.404Z","test_id":"T61","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:27.409Z","test_id":"T68","status":"running","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:28.751Z","test_id":"T68","status":"green","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:28.752Z","test_id":"T69","status":"running","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:30.103Z","test_id":"T69","status":"green","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:30.109Z","test_id":"T48","status":"running","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:32.282Z","test_id":"T48","status":"green","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:32.286Z","test_id":"T50","status":"running","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:32.424Z","test_id":"T50","status":"green","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:32.428Z","test_id":"T55","status":"running","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:34.244Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:34.249Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:16:35.998Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts": "2026-11-02T20:17:07.657236+00:00", "test_id": "T1", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:12.492884+00:00", "test_id": "T1", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:13.979656+00:00", "test_id": "T2", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:13.981972+00:00", "test_id": "T2", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:14.322262+00:00", "test_id": "T3", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:14.493988+00:00", "test_id": "T3", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:15.204912+00:00", "test_id": "T4", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:15.666365+00:00", "test_id": "T4", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:16.017032+00:00", "test_id": "T12", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:16.245432+00:00", "test_id": "T12", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:16.587231+00:00", "test_id": "T13", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:16.818812+00:00", "test_id": "T13", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:17.165227+00:00", "test_id": "T14", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:17.393475+00:00", "test_id": "T14", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:17.739267+00:00", "test_id": "T15", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:17.742544+00:00", "test_id": "T15", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:18.086114+00:00", "test_id": "T16", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:18.090184+00:00", "test_id": "T16", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:18.434235+00:00", "test_id": "T24", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:18.665009+00:00", "test_id": "T24", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:19.009226+00:00", "test_id": "T25", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:19.011697+00:00", "test_id": "T25", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:19.354039+00:00", "test_id": "T26", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:19.359229+00:00", "test_id": "T26", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:19.704847+00:00", "test_id": "T31", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:20.164434+00:00", "test_id": "T31", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:20.507206+00:00", "test_id": "T32", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:21.199377+00:00", "test_id": "T32", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:21.539833+00:00", "test_id": "T33", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:22.400772+00:00", "test_id": "T33", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:22.805002+00:00", "test_id": "T8", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:23.305548+00:00", "test_id": "T8", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:23.658346+00:00", "test_id": "T9", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:24.118914+00:00", "test_id": "T9", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:24.473683+00:00", "test_id": "T10", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:24.937175+00:00", "test_id": "T10", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:25.282480+00:00", "test_id": "T11", "status": "running", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:25.919076+00:00", "test_id": "T11", "status": "green", "file": "tests/test_s1_file_stock_record.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:26.321129+00:00", "test_id": "T39", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:27.934112+00:00", "test_id": "T39", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:28.284284+00:00", "test_id": "T40", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:29.913219+00:00", "test_id": "T40", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:30.255676+00:00", "test_id": "T41", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:35.570435+00:00", "test_id": "T41", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:37.040407+00:00", "test_id": "T42", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:41.144599+00:00", "test_id": "T42", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:42.632075+00:00", "test_id": "T43", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:43.325801+00:00", "test_id": "T43", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:43.665465+00:00", "test_id": "T44", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:43.667303+00:00", "test_id": "T44", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:44.016360+00:00", "test_id": "T45", "status": "running", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:44.641434+00:00", "test_id": "T45", "status": "green", "file": "tests/test_s2_view_stock_by_location.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:44.984606+00:00", "test_id": "T56", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:45.685003+00:00", "test_id": "T56", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:46.043583+00:00", "test_id": "T57", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:46.273053+00:00", "test_id": "T57", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:46.615344+00:00", "test_id": "T62", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:47.299328+00:00", "test_id": "T62", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:47.641995+00:00", "test_id": "T66", "status": "running", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts": "2026-11-02T20:17:48.599023+00:00", "test_id": "T66", "status": "green", "file": "tests/test_s3_view_sku_detail.py", "kind": "behavior"}
+{"ts":"2026-11-02T20:18:00.904Z","test_id":"T58","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.906Z","test_id":"T63","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.907Z","test_id":"T67","status":"green","file":"client/tests/components/SkuDetail.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.907Z","test_id":"T5","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.907Z","test_id":"T17","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.908Z","test_id":"T18","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.908Z","test_id":"T19","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.908Z","test_id":"T20","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.908Z","test_id":"T27","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.909Z","test_id":"T28","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.909Z","test_id":"T34","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.909Z","test_id":"T35","status":"green","file":"client/tests/components/StockRecordForm.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.909Z","test_id":"T46","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.910Z","test_id":"T47","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.910Z","test_id":"T49","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.910Z","test_id":"T51","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:00.910Z","test_id":"T52","status":"green","file":"client/tests/components/StockTable.test.tsx","kind":"client"}
+{"ts":"2026-11-02T20:18:05.311Z","test_id":"T36","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:06.632Z","test_id":"T36","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:06.640Z","test_id":"T37","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:08.449Z","test_id":"T37","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:08.450Z","test_id":"T38","status":"running","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:09.949Z","test_id":"T38","status":"green","file":"client/tests/e2e/file-stock-record-duplicate.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:09.954Z","test_id":"T29","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.240Z","test_id":"T29","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.241Z","test_id":"T30","status":"running","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.481Z","test_id":"T30","status":"green","file":"client/tests/e2e/file-stock-record-quantity.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.487Z","test_id":"T21","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.741Z","test_id":"T21","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.742Z","test_id":"T22","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.996Z","test_id":"T22","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:10.998Z","test_id":"T23","status":"running","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:11.250Z","test_id":"T23","status":"green","file":"client/tests/e2e/file-stock-record-validation.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:11.255Z","test_id":"T6","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:12.207Z","test_id":"T6","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:12.208Z","test_id":"T7","status":"running","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:13.357Z","test_id":"T7","status":"green","file":"client/tests/e2e/file-stock-record.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:13.516Z","test_id":"T64","status":"running","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:14.860Z","test_id":"T64","status":"green","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:14.861Z","test_id":"T65","status":"running","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:16.197Z","test_id":"T65","status":"green","file":"client/tests/e2e/sku-detail-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:16.201Z","test_id":"T59","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:17.993Z","test_id":"T59","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:17.994Z","test_id":"T60","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:19.764Z","test_id":"T60","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:19.765Z","test_id":"T61","status":"running","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:22.308Z","test_id":"T61","status":"green","file":"client/tests/e2e/sku-detail-open.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:22.313Z","test_id":"T68","status":"running","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:23.661Z","test_id":"T68","status":"green","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:23.662Z","test_id":"T69","status":"running","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:24.976Z","test_id":"T69","status":"green","file":"client/tests/e2e/sku-detail-par-level.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:24.980Z","test_id":"T48","status":"running","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:27.171Z","test_id":"T48","status":"green","file":"client/tests/e2e/stock-by-location.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:27.175Z","test_id":"T50","status":"running","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:27.324Z","test_id":"T50","status":"green","file":"client/tests/e2e/stock-empty-state.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:27.328Z","test_id":"T55","status":"running","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:29.136Z","test_id":"T55","status":"green","file":"client/tests/e2e/stock-new-record-appears.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:29.143Z","test_id":"T53","status":"running","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}
+{"ts":"2026-11-02T20:18:30.939Z","test_id":"T53","status":"green","file":"client/tests/e2e/stock-not-tracked.spec.ts","kind":"client"}

@@ -3,7 +3,7 @@
   "given": "a stock record exists for (WID-001, A-01, quantity 12, tracking code \"A01-B7-S0042\") with no par level recorded",
   "when": "the operator opens that record's SKU detail view",
   "then": "the par level field shows \"not tracked\" while the tracking code field on the same view shows A01-B7-S0042, each optional field judged on its own",
-  "status": "draft",
+  "status": "passing",
   "independence": {
     "distinct_from_prior": true,
     "rationale": "Covers per-field independent judgment: AC2 only tests the tracking code absent, so a build could mark every optional field 'not tracked' whenever any one is missing, or only when the tracking code is missing."

@@ -3,7 +3,7 @@
   "given": "stock records exist for (WID-001, A-01, quantity 12, tracking code \"A01-B7-S0042\") and (BOLT-07, A-01, quantity 40)",
   "when": "the operator clicks the WID-001 / A-01 row in the home stock table",
   "then": "the SKU detail view for that one record opens without a full-page reload, showing SKU WID-001, location A-01, quantity 12 and tracking code A01-B7-S0042, and no data from the BOLT-07 record",
-  "status": "draft",
+  "status": "passing",
   "layer": "E2E",
   "architectural_notes": "E2E client-server contract: clicking a home stock-row SPA-navigates to /sku/:sku?location= and the detail page (client/src/pages via a hooks/api detail hook) fetches EP3 from app/routes/stock_records.py, which delegates to app/services/stock_records.py; the repository app/repositories/stock_records.py does an exact (sku, location) lookup served by the PI1 unique index, so only that record is returned. Verified by Playwright against the live API over two seeded rows on the paired branch (no document navigation, no BOLT-07 data), plus a pytest-bdd API test of the exact-key lookup and 404 on a miss.",
   "ui_seams": [
