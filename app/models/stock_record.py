@@ -1,6 +1,6 @@
 """StockRecord: one SKU's quantity at one location, keyed by (sku, location)."""
 
-from sqlalchemy import CheckConstraint, Column, Integer, String, UniqueConstraint
+from sqlalchemy import CheckConstraint, Column, Index, Integer, String, UniqueConstraint
 
 from app.database import Base
 
@@ -10,6 +10,7 @@ class StockRecord(Base):
     __table_args__ = (
         UniqueConstraint("sku", "location", name="uq_stock_records_sku_location"),
         CheckConstraint("quantity >= 0", name="ck_stock_records_quantity_non_negative"),
+        Index("ix_stock_records_location_sku", "location", "sku"),
     )
 
     id = Column(Integer, primary_key=True, autoincrement=True)

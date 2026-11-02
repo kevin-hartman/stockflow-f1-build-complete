@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { useHealth } from "../hooks/useHealth";
 import { StatusBadge, type BadgeTone } from "../components/StatusBadge";
+import { StockTable } from "../components/StockTable";
 
-// Pages are the only place hooks and components are wired together. Every state
-// (loading, success, error) is an explicit component state, never a blank
-// region, per the design brief's no-silent-states rule.
+// Home: stock by location. Every state (loading, success, error) is explicit,
+// never a blank region, per the design brief's no-silent-states rule.
 export function HomePage() {
   const health = useHealth();
 
@@ -19,14 +20,15 @@ export function HomePage() {
 
   return (
     <main className="page">
-      <h1>stockflow-sample</h1>
-      <p>
-        This is the React SPA scaffold. It talks to the JSON API over
-        <code> /api</code> and is served by the backend in production.
-      </p>
-      <p>
-        Backend health: <StatusBadge tone={tone} label={label} />
-      </p>
+      <div className="page__header">
+        <img className="page__icon" src="/warehouse.png" alt="" />
+        <h1 className="page__title" data-testid="home-title">Stock by location</h1>
+        <StatusBadge tone={tone} label={label} />
+        <Link className="btn btn--secondary btn--sm" to="/stock/new">
+          File stock record
+        </Link>
+      </div>
+      <StockTable />
     </main>
   );
 }

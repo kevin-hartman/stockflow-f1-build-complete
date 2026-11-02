@@ -23,7 +23,7 @@ export function App() {
             end
             className={({ isActive }) => `navbar__link${isActive ? " navbar__link--active" : ""}`}
           >
-            Home
+            Stock
           </NavLink>
           <NavLink
             to="/stock/new"

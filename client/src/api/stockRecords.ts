@@ -49,3 +49,9 @@ export async function fileStockRecord(input: StockRecordInput): Promise<FileResu
   }
   return { kind: "failed", message: `Could not file the record (status ${res.status})` };
 }
+
+export async function listStockRecords(): Promise<StockRecord[]> {
+  const res = await fetch("/api/stock-records", { headers: { Accept: "application/json" } });
+  if (!res.ok) throw new Error(`Could not load stock (status ${res.status})`);
+  return (await res.json()) as StockRecord[];
+}
